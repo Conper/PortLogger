@@ -30,7 +30,7 @@ func main() {
 	fmt.Println(Yellow + "PORT LOGGER" + Cyan + " - by Conper" + Reset)
 	fmt.Println(Blue + "Time format: DAY-MONTH-YEAR / HOUR:MINUTE:SECOND" + Cyan + "      Listening in port: " + port + "\n" + Reset)
 
-	ln, err := net.Listen("tcp", ":"+port) // ":"+port
+	ln, err := net.Listen("tcp", ":"+port)
 	if err != nil {log.Fatal(err)}
 	defer ln.Close()
 
