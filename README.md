@@ -11,7 +11,7 @@ Requirements:
 
 Clone the repository:
 
-    git clone https://github.com/username/PortLogger.git
+    git clone https://github.com/Conper/PortLogger.git
     cd PortLogger
 
 Build the project:
